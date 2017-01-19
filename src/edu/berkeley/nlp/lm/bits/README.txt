@@ -1,0 +1,7 @@
+BitList
+用BitSet实现一个bit数组,比较简单.numBits用于标记当前数组大小
+
+BitStream
+主要用于论文中的变长编码的解码 实现就是每次从一个LongArray中读一个long,以long为单位处理bits
+
+这个包就是用来实现变长编码和解码,比较简单
